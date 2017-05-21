@@ -3,7 +3,7 @@ FROM openjdk:8-jre
 # Based on the original by Andrew Grande.  See aperepel/nifi
 MAINTAINER Uday Kabe <uday.kabe@exolyte.com>
 
-ENV NIFI_VERSION=1.1.2
+ENV NIFI_VERSION=1.2.0
 
 RUN wget -q https://archive.apache.org/dist/nifi/$NIFI_VERSION/nifi-$NIFI_VERSION-bin.tar.gz && \
     tar zxf nifi*.tar.gz && \
